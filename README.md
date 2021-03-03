@@ -1,4 +1,4 @@
-# Truth Table Minimizer
+# Boolean Equation Minimization
 ## Quine-McClusky Algorithm
 The QMA works by iteratively grouping similar minterms together until a set of maximally condensed minterms is produced. Then, by constructing an Essential Prime Implicants table, we identify which minterms from the condensed set are essential for covering all of the original minterms in the truth table. In some cases, the condensed minterms will not be able to cover all of the original minterms. Although there are more elegant solutions, this implementation simply solves for the optimal solution from this point using brute force (if necessary at all). This algorithm's complexity is exponential.
 
