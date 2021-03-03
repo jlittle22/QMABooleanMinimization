@@ -22,6 +22,7 @@ g++ -std=c++11 -Wall -Wextra -o minimize main.cpp minimizer.cpp minterm.cpp
 ```
 ./minimize [n-bit string] ... where n is a power of 2
 ```
+Note: presently, don't-care-values (X's) are not supported -- only use 1's and 0's.
 ### Example
 ```
 ./minimize 00110011111100000000010101110100
