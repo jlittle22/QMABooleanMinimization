@@ -27,7 +27,7 @@ Note: presently, don't-care-values (X's) are not supported -- only use 1's and 0
 ```
 ./minimize 00110011111100000000010101110100
 ```
-is equivalent to solving the truth table:
+is equivalent to solving the truth table where the input string above is the same as the output column in the table below: 
 ```
 Truth Table (5 variables)
 0 0 0 0 0 | 0
